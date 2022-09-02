@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const calculadora_1 = require("./classes/calculadora");
+const number1 = 10;
+const number2 = 5;
+const operacion = new calculadora_1.Calculadora(number1, number2);
+console.log(operacion.sumar(number1, number2));
+console.log(operacion.restar(number1, number2));
+console.log(operacion.multiplicar(number1, number2));
+console.log(operacion.dividir(number1, number2));
